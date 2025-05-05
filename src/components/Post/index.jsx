@@ -1,7 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import React, { useEffect, useState } from "react";
-import { formatTimeAgo } from "../FormatTimeAgo";
+import { formatTimeAgo } from "../formatTimeAgo";
 import { setPost } from "../../Redux/PostSlice";
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import EditDocumentIcon from '@mui/icons-material/EditDocument';
